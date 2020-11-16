@@ -42,6 +42,7 @@ defmodule Fermo.DatoCMS.GraphqlClient.MixProject do
   defp deps do
     [
       {:datocms_graphql_client, ">= 0.13.0"},
+      {:ex_doc, "~> 0.21.2", only: :dev},
       {:fermo, ">= 0.13.0"}
     ]
   end
