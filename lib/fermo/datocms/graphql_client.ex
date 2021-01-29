@@ -44,7 +44,7 @@ defmodule Fermo.DatoCMS.GraphQLClient do
     # We cannot know which pages (i.e. paths) it affects,
     # So we need to reload the Fermo config
     {:ok} = Dependencies.reinitialize()
-    {:ok} = SocketRegistry.reload()
+    {:ok} = SocketRegistry.reload_all()
   end
 
   defp handle_path_reload(path) do
