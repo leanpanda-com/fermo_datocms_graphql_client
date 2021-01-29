@@ -1,7 +1,7 @@
 defmodule Fermo.DatoCMS.GraphqlClient.MixProject do
   use Mix.Project
 
-  @version "0.13.0"
+  @version "0.13.3"
   @git_origin "https://github.com/leanpanda-com/fermo_datocms_graphql_client"
 
   def project do
